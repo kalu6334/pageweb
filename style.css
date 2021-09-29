@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header .right{
+	justify-content: end;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px 20px;
+}
+
+header p {
+	margin-right:10px ;
+}
+header object {
+	margin-right: 10px;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:200px ;
+}
+section .form-group{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+section .form-group input{
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 50px;
+}
+
+section object {
+	margin-right: -500px;
+	margin-top: -30px;
+}
+
+button {
+	margin-top:20px ;
+} 
